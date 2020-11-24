@@ -174,8 +174,9 @@ public class Baek_2F_Activity extends AppCompatActivity {
 
             Path path = new Path();
             path.moveTo(1100,450);
-            path.lineTo(1250,450);
-            path.lineTo(1250,750);
+            path.lineTo(1580,450);
+            path.lineTo(1580,580);
+            path.lineTo(1820,580);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -197,9 +198,8 @@ public class Baek_2F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1100,560);
-            path.lineTo(1250,560);
-            path.lineTo(1250,750);
+            path.moveTo(1110,580);
+            path.lineTo(1820,580);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -224,8 +224,9 @@ public class Baek_2F_Activity extends AppCompatActivity {
             path.lineTo(770,690);
             path.lineTo(1100,690);
             path.lineTo(1100,630);
-            path.lineTo(1250,630);
-            path.lineTo(1250,770);
+            path.lineTo(1580,630);
+            path.lineTo(1580,590);
+            path.lineTo(1820,590);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -250,8 +251,9 @@ public class Baek_2F_Activity extends AppCompatActivity {
             path.lineTo(580,690);
             path.lineTo(1100,690);
             path.lineTo(1100,630);
-            path.lineTo(1250,630);
-            path.lineTo(1250,770);
+            path.lineTo(1580,630);
+            path.lineTo(1580,590);
+            path.lineTo(1820,590);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -276,8 +278,9 @@ public class Baek_2F_Activity extends AppCompatActivity {
             path.lineTo(460,690);
             path.lineTo(1100,690);
             path.lineTo(1100,630);
-            path.lineTo(1250,630);
-            path.lineTo(1250,770);
+            path.lineTo(1580,630);
+            path.lineTo(1580,590);
+            path.lineTo(1820,590);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -301,8 +304,9 @@ public class Baek_2F_Activity extends AppCompatActivity {
             path.moveTo(350,690);
             path.lineTo(1100,690);
             path.lineTo(1100,630);
-            path.lineTo(1250,630);
-            path.lineTo(1250,770);
+            path.lineTo(1580,630);
+            path.lineTo(1580,590);
+            path.lineTo(1820,590);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -326,8 +330,9 @@ public class Baek_2F_Activity extends AppCompatActivity {
             path.moveTo(350,690);
             path.lineTo(1100,690);
             path.lineTo(1100,630);
-            path.lineTo(1250,630);
-            path.lineTo(1250,770);
+            path.lineTo(1580,630);
+            path.lineTo(1580,590);
+            path.lineTo(1820,590);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -350,8 +355,9 @@ public class Baek_2F_Activity extends AppCompatActivity {
             Path path = new Path();
             path.moveTo(200,210);
             path.lineTo(200,450);
-            path.lineTo(1250,450);
-            path.lineTo(1250,750);
+            path.lineTo(1580,450);
+            path.lineTo(1580,580);
+            path.lineTo(1820,580);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -375,9 +381,9 @@ public class Baek_2F_Activity extends AppCompatActivity {
             path.moveTo(1070,210);
             path.lineTo(1000,210);
             path.lineTo(1000,450);
-            path.lineTo(1280,450);
-            path.lineTo(1280,300);
-            path.lineTo(1200,300);
+            path.lineTo(1580,450);
+            path.lineTo(1580,580);
+            path.lineTo(1820,580);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -401,9 +407,9 @@ public class Baek_2F_Activity extends AppCompatActivity {
             path.moveTo(1070,330);
             path.lineTo(1000,330);
             path.lineTo(1000,450);
-            path.lineTo(1280,450);
-            path.lineTo(1280,300);
-            path.lineTo(1200,300);
+            path.lineTo(1580,450);
+            path.lineTo(1580,580);
+            path.lineTo(1820,580);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -476,12 +482,12 @@ public class Baek_2F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  1050, 1200, 1200); //x 좌표
-                animation1.setDuration(1600);
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  1050, 1530, 1530, 1770); //x 좌표
+                animation1.setDuration(1800);
                 animation1.start();
 
-                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  400, 400, 700); //y 좌표
-                animation3.setDuration(1600);
+                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  400, 400, 530, 530); //y 좌표
+                animation3.setDuration(1800);
                 animation3.start();
 
                 fl1.setVisibility(View.VISIBLE);
@@ -519,11 +525,11 @@ public class Baek_2F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  1050, 1200, 1200); //x 좌표
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  1060, 1770); //x 좌표
                 animation1.setDuration(1800);
                 animation1.start();
 
-                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  510, 510, 700); //y 좌표
+                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  530, 530); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
 
@@ -562,11 +568,11 @@ public class Baek_2F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  720, 720, 1050, 1050, 1200, 1200);
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  720, 720, 1050, 1050, 1530, 1530, 1770);
                 animation1.setDuration(2100);
                 animation1.start();
 
-                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  670, 630, 630, 570, 570, 710);
+                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  670, 630, 630, 570, 570, 530, 530);
                 animation3.setDuration(2100);
                 animation3.start();
 
@@ -605,11 +611,11 @@ public class Baek_2F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 530, 530, 1050, 1050, 1200, 1200);
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 530, 530, 1050, 1050, 1530, 1530, 1770);
                 animation1.setDuration(2300);
                 animation1.start();
 
-                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  670, 630, 630, 570, 570, 710);
+                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  670, 630, 630, 570, 570, 530, 530);
                 animation3.setDuration(2300);
                 animation3.start();
 
@@ -648,11 +654,11 @@ public class Baek_2F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 410, 410, 1050, 1050, 1200, 1200);
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 410, 410, 1050, 1050, 1530, 1530, 1770);
                 animation1.setDuration(2300);
                 animation1.start();
 
-                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 670, 630, 630, 570, 570, 710);
+                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 670, 630, 630, 570, 570, 530, 530);
                 animation3.setDuration(2300);
                 animation3.start();
 
@@ -691,11 +697,11 @@ public class Baek_2F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  300, 1050, 1050, 1200, 1200);
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  300, 1050, 1050, 1530, 1530, 1770);
                 animation1.setDuration(2300);
                 animation1.start();
 
-                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  630, 630, 570, 570, 710);
+                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  630, 630, 570, 570, 530, 530);
                 animation3.setDuration(2300);
                 animation3.start();
 
@@ -734,11 +740,11 @@ public class Baek_2F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 300, 1050, 1050, 1200, 1200);
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 300, 1050, 1050, 1530, 1530, 1770);
                 animation1.setDuration(2500);
                 animation1.start();
 
-                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 630, 630, 570, 570, 710);
+                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 630, 630, 570, 570, 530, 530);
                 animation3.setDuration(2500);
                 animation3.start();
 
@@ -777,11 +783,11 @@ public class Baek_2F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 150, 150, 1200, 1200);
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 150, 150, 1530, 1530, 1770);
                 animation1.setDuration(2500);
                 animation1.start();
 
-                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 160, 400, 400, 700);
+                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 160, 400, 400, 530, 530);
                 animation3.setDuration(2500);
                 animation3.start();
 
@@ -820,11 +826,11 @@ public class Baek_2F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1020, 950, 950, 1230, 1230, 1150);
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1020, 950, 950, 1530, 1530, 1770);
                 animation1.setDuration(2000);
                 animation1.start();
 
-                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 160, 160, 400, 400, 250, 250);
+                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 160, 160, 400, 400, 530, 530);
                 animation3.setDuration(2000);
                 animation3.start();
 
@@ -863,11 +869,11 @@ public class Baek_2F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1020, 950, 950, 1230, 1230, 1150);
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1020, 950, 950, 1530, 1530, 1770);
                 animation1.setDuration(1900);
                 animation1.start();
 
-                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 280, 280, 400, 400, 250, 250);
+                ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 280, 280, 400, 400, 530, 530);
                 animation3.setDuration(1900);
                 animation3.start();
 

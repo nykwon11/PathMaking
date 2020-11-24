@@ -414,11 +414,11 @@ public class Rena_4F_Activity extends AppCompatActivity {
 
 
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 500,500,220,220); //x 좌표
-                animation1.setDuration(1900);
+                animation1.setDuration(1500);
                 animation1.start();
 
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 580,550,550,580); //y 좌표
-                animation3.setDuration(1900);
+                animation3.setDuration(1500);
                 animation3.start();
 
                 fl1.setVisibility(View.VISIBLE);
@@ -456,11 +456,11 @@ public class Rena_4F_Activity extends AppCompatActivity {
 
 
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  700,700,220,220); //x 좌표
-                animation1.setDuration(2000);
+                animation1.setDuration(1600);
                 animation1.start();
 
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  580,550,550,580); //y 좌표
-                animation3.setDuration(2000);
+                animation3.setDuration(1600);
                 animation3.start();
 
                 fl1.setVisibility(View.GONE);
@@ -497,11 +497,11 @@ public class Rena_4F_Activity extends AppCompatActivity {
             public void onClick(View v) {
 
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  1000,1000,220,220); //x 좌표
-                animation1.setDuration(3000);
+                animation1.setDuration(1900);
                 animation1.start();
 
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  580,550,550,580); //y 좌표
-                animation3.setDuration(3000);
+                animation3.setDuration(1900);
                 animation3.start();
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -537,11 +537,11 @@ public class Rena_4F_Activity extends AppCompatActivity {
 
 
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  1270,1270,220,220);
-                animation1.setDuration(3000);
+                animation1.setDuration(2300);
                 animation1.start();
 
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  630,550,550,580);
-                animation3.setDuration(3000);
+                animation3.setDuration(2300);
                 animation3.start();
 
                 fl1.setVisibility(View.GONE);
@@ -577,11 +577,11 @@ public class Rena_4F_Activity extends AppCompatActivity {
             public void onClick(View v) {
 
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1270,1270,220,220);
-                animation1.setDuration(3500);
+                animation1.setDuration(2500);
                 animation1.start();
 
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  400,550,550,580);
-                animation3.setDuration(3500);
+                animation3.setDuration(2500);
                 animation3.start();
 
                 fl1.setVisibility(View.GONE);
@@ -617,11 +617,11 @@ public class Rena_4F_Activity extends AppCompatActivity {
             public void onClick(View v) {
 
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1000,1000,220,220);
-                animation1.setDuration(4000);
+                animation1.setDuration(1900);
                 animation1.start();
 
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 450,550,550,580);
-                animation3.setDuration(4000);
+                animation3.setDuration(1900);
                 animation3.start();
 
                 fl1.setVisibility(View.GONE);
@@ -658,11 +658,11 @@ public class Rena_4F_Activity extends AppCompatActivity {
 
 
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 700,700,220,220);
-                animation1.setDuration(4000);
+                animation1.setDuration(1800);
                 animation1.start();
 
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 450,550,550,580);
-                animation3.setDuration(4000);
+                animation3.setDuration(1800);
                 animation3.start();
 
                 fl1.setVisibility(View.GONE);
@@ -699,11 +699,11 @@ public class Rena_4F_Activity extends AppCompatActivity {
 
 
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 560,510,510,430);
-                animation1.setDuration(3500);
+                animation1.setDuration(1300);
                 animation1.start();
 
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  360,360,250,250);
-                animation3.setDuration(3500);
+                animation3.setDuration(1300);
                 animation3.start();
 
                 fl1.setVisibility(View.GONE);
@@ -741,11 +741,11 @@ public class Rena_4F_Activity extends AppCompatActivity {
 
 
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  460,460,430);
-                animation1.setDuration(3000);
+                animation1.setDuration(1000);
                 animation1.start();
 
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  230,250,250);
-                animation3.setDuration(3000);
+                animation3.setDuration(1000);
                 animation3.start();
 
 
