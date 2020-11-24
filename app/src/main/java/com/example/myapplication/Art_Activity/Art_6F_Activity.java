@@ -185,10 +185,9 @@ public class Art_6F_Activity extends AppCompatActivity {
             Path path = new Path();
             path.moveTo(500, 560);
             path.lineTo(500, 540);
-            path.lineTo(750, 540);
-            path.lineTo(750, 675);
-            path.lineTo(770, 675);
-            path.lineTo(790, 675);
+            path.lineTo(800, 540);
+            path.lineTo(800, 675);
+
 
             canvas.drawPath(path, MyPaint);
         }
@@ -211,11 +210,10 @@ public class Art_6F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(250, 540);
-            path.lineTo(750, 540);
-            path.lineTo(750, 675);
-            path.lineTo(770, 675);
-            path.lineTo(790, 675);
+            path.moveTo(300, 540);
+            path.lineTo(800, 540);
+            path.lineTo(800, 675);
+
 
             canvas.drawPath(path, MyPaint);
         }
@@ -237,12 +235,11 @@ public class Art_6F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(450, 520);
-            path.lineTo(450, 540);
-            path.lineTo(750, 540);
-            path.lineTo(750, 675);
-            path.lineTo(770, 675);
-            path.lineTo(790, 675);
+            path.moveTo(480, 520);
+            path.lineTo(480, 540);
+            path.lineTo(800, 540);
+            path.lineTo(800, 675);
+            path.lineTo(830, 675);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -264,12 +261,9 @@ public class Art_6F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(750, 520);
-            path.lineTo(750, 540);
-            path.lineTo(750, 540);
-            path.lineTo(750, 675);
-            path.lineTo(770, 675);
-            path.lineTo(790, 675);
+            path.moveTo(800, 520);
+            path.lineTo(800, 675);
+            path.lineTo(840, 675);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -473,16 +467,15 @@ public class Art_6F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(270, 540);
-            path.lineTo(750, 540);
-            path.lineTo(750, 675);
+            path.moveTo(320, 540);
+            path.lineTo(1800, 540);
 
-            path.lineTo(750, 540);
-            path.lineTo(1330,540);
-            path.lineTo(1330,580);
 
-            path.lineTo(1330,540);
-            path.lineTo(1800,540);
+            path.moveTo(1330,540);
+            path.lineTo(1330,620);
+
+            path.moveTo(800, 540);
+            path.lineTo(800, 675);
             canvas.drawPath(path, MyPaint);
         }
     }

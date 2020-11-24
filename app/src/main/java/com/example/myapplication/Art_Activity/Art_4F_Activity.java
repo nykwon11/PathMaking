@@ -209,8 +209,7 @@ public class Art_4F_Activity extends AppCompatActivity {
             Path path = new Path();
             path.moveTo(530, 590);
             path.lineTo(530, 560);
-            path.lineTo(750, 560);
-            path.lineTo(750, 705);
+            path.lineTo(780, 560);
             path.lineTo(780, 705);
             path.lineTo(820, 705);
 
@@ -237,9 +236,9 @@ public class Art_4F_Activity extends AppCompatActivity {
             Path path = new Path();
             path.moveTo(430, 590);
             path.lineTo(430, 560);
-            path.lineTo(750, 560);
-            path.lineTo(750, 705);
+            path.lineTo(780, 560);
             path.lineTo(780, 705);
+
             path.lineTo(820, 705);
 
             canvas.drawPath(path, MyPaint);
@@ -263,9 +262,9 @@ public class Art_4F_Activity extends AppCompatActivity {
 
             Path path = new Path();
             path.moveTo(300, 560);
-            path.lineTo(750, 560);
-            path.lineTo(750, 705);
+            path.lineTo(780, 560);
             path.lineTo(780, 705);
+
             path.lineTo(820, 705);
 
             canvas.drawPath(path, MyPaint);
@@ -289,9 +288,9 @@ public class Art_4F_Activity extends AppCompatActivity {
 
             Path path = new Path();
             path.moveTo(300, 560);
-            path.lineTo(750, 560);
-            path.lineTo(750, 705);
+            path.lineTo(780, 560);
             path.lineTo(780, 705);
+
             path.lineTo(820, 705);
 
             canvas.drawPath(path, MyPaint);
@@ -316,8 +315,7 @@ public class Art_4F_Activity extends AppCompatActivity {
             Path path = new Path();
             path.moveTo(240, 530);
             path.lineTo(240, 560);
-            path.lineTo(750, 560);
-            path.lineTo(750, 705);
+            path.lineTo(780, 560);
             path.lineTo(780, 705);
             path.lineTo(820, 705);
 
@@ -343,8 +341,7 @@ public class Art_4F_Activity extends AppCompatActivity {
             Path path = new Path();
             path.moveTo(430, 540);
             path.lineTo(430, 560);
-            path.lineTo(750, 560);
-            path.lineTo(750, 705);
+            path.lineTo(780, 560);
             path.lineTo(780, 705);
             path.lineTo(820, 705);
 
@@ -368,12 +365,11 @@ public class Art_4F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(530, 540);
-            path.lineTo(530, 560);
-            path.lineTo(750, 560);
-            path.lineTo(750, 705);
-            path.lineTo(780, 705);
-            path.lineTo(820, 705);
+            path.moveTo(580, 540);
+            path.lineTo(580, 560);
+            path.lineTo(800, 560);
+            path.lineTo(800, 705);
+            path.lineTo(870, 705);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -397,8 +393,7 @@ public class Art_4F_Activity extends AppCompatActivity {
             Path path = new Path();
             path.moveTo(910, 540);
             path.lineTo(910, 560);
-            path.lineTo(750, 560);
-            path.lineTo(750, 705);
+            path.lineTo(780, 560);
             path.lineTo(780, 705);
             path.lineTo(820, 705);
 
@@ -422,10 +417,10 @@ public class Art_4F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1130, 540);
-            path.lineTo(1130, 560);
-            path.lineTo(1360, 560);
-            path.lineTo(1360, 595);
+            path.moveTo(1230, 540);
+            path.lineTo(1230, 560);
+            path.lineTo(1460, 560);
+            path.lineTo(1460, 595);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -447,10 +442,10 @@ public class Art_4F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1260, 540);
-            path.lineTo(1260, 560);
+            path.moveTo(1360, 540);
             path.lineTo(1360, 560);
-            path.lineTo(1360, 595);
+            path.lineTo(1460, 560);
+            path.lineTo(1460, 595);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -472,11 +467,10 @@ public class Art_4F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1560, 540);
-            path.lineTo(1560, 560);
-            path.lineTo(1360, 560);
-            path.lineTo(1360, 595);
-            path.lineTo(1360, 605);
+            path.moveTo(1660, 540);
+            path.lineTo(1660, 560);
+            path.lineTo(1460, 560);
+            path.lineTo(1460, 605);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -498,11 +492,10 @@ public class Art_4F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1560, 580);
-            path.lineTo(1560, 560);
-            path.lineTo(1360, 560);
-            path.lineTo(1360, 595);
-            path.lineTo(1360, 605);
+            path.moveTo(1660, 580);
+            path.lineTo(1660, 560);
+            path.lineTo(1460, 560);
+            path.lineTo(1460, 605);
             canvas.drawPath(path, MyPaint);
         }
     }
@@ -548,12 +541,11 @@ public class Art_4F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(950, 580);
-            path.lineTo(950, 560);
-            path.lineTo(750, 560);
-            path.lineTo(750, 705);
-            path.lineTo(780, 705);
-            path.lineTo(820, 705);
+            path.moveTo(1050, 580);
+            path.lineTo(1050, 560);
+            path.lineTo(850, 560);
+            path.lineTo(850, 705);
+            path.lineTo(920, 705);
             canvas.drawPath(path, MyPaint);
         }
     }
@@ -574,16 +566,16 @@ public class Art_4F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(310, 560);
-            path.lineTo(750, 560);
-            path.lineTo(750, 705);
+            path.moveTo(410, 560);
+            path.lineTo(850, 560);
+            path.lineTo(850, 705);
 
-            path.lineTo(750, 560);
-            path.lineTo(1350,560);
-            path.lineTo(1350,600);
+            path.lineTo(850, 560);
+            path.lineTo(1450,560);
+            path.lineTo(1450,600);
 
-            path.lineTo(1350,560);
-            path.lineTo(1840,560);
+            path.lineTo(1450,560);
+            path.lineTo(1940,560);
             canvas.drawPath(path, MyPaint);
         }
     }

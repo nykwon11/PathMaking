@@ -370,10 +370,9 @@ public class Art_5F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1700, 500);
-            path.lineTo(1700, 540);
+            path.moveTo(1750, 500);
+            path.lineTo(1750, 540);
             path.lineTo(1320, 540);
-            path.lineTo(1320, 570);
             path.lineTo(1320, 580);
 
             canvas.drawPath(path, MyPaint);
@@ -396,8 +395,8 @@ public class Art_5F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1550, 570);
-            path.lineTo(1550, 540);
+            path.moveTo(1600, 570);
+            path.lineTo(1600, 540);
             path.lineTo(1320, 540);
             path.lineTo(1320, 570);
 

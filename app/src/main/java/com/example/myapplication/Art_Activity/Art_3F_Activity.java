@@ -319,12 +319,10 @@ public class Art_3F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1240, 590);
-            path.lineTo(1240, 610);
+            path.moveTo(1340, 590);
             path.lineTo(1340, 610);
-            path.lineTo(1340, 630);
-            path.lineTo(1340, 640);
-            path.lineTo(1340, 670);
+            path.lineTo(1440, 610);
+            path.lineTo(1440, 670);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -346,11 +344,9 @@ public class Art_3F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1440, 590);
-            path.lineTo(1440, 610);
+            path.moveTo(1540, 590);
+            path.lineTo(1540, 610);
             path.lineTo(1340, 610);
-            path.lineTo(1340, 630);
-            path.lineTo(1340, 640);
             path.lineTo(1340, 670);
 
             canvas.drawPath(path, MyPaint);
@@ -373,8 +369,8 @@ public class Art_3F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1550, 590);
-            path.lineTo(1550, 610);
+            path.moveTo(1650, 590);
+            path.lineTo(1650, 610);
             path.lineTo(1340, 610);
             path.lineTo(1340, 640);
             path.lineTo(1340, 670);
@@ -399,10 +395,9 @@ public class Art_3F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1745, 670);
-            path.lineTo(1745, 610);
+            path.moveTo(1845, 670);
+            path.lineTo(1845, 610);
             path.lineTo(1340, 610);
-            path.lineTo(1340, 640);
             path.lineTo(1340, 670);
 
             canvas.drawPath(path, MyPaint);
@@ -425,10 +420,9 @@ public class Art_3F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.GREEN);
 
             Path path = new Path();
-            path.moveTo(1550, 670);
-            path.lineTo(1550, 610);
+            path.moveTo(1650, 670);
+            path.lineTo(1650, 610);
             path.lineTo(1340, 610);
-            path.lineTo(1340, 640);
             path.lineTo(1340, 670);
 
             canvas.drawPath(path, MyPaint);
