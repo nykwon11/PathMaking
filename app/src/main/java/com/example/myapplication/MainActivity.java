@@ -411,8 +411,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             final CharSequence[] items = {"B2층", "B1층", "1층", "2층", "3층"};
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
 
-
-            alertDialogBuilder.setTitle("층을 선택하세요");
+            alertDialogBuilder.setTitle("[프라임관] 층을 선택하세요");
             alertDialogBuilder.setCancelable(false);
 
             alertDialogBuilder.setPositiveButton("확인", new DialogInterface.OnClickListener() {
@@ -462,12 +461,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             alertDialog.show();
         }
 
+
         else if (marker.getTitle().equals("음악대학")) {
             final CharSequence[] items = { "1층", "2층", "3층", "4층","5층", "6층", "7층"};
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
 
-
-            alertDialogBuilder.setTitle("층을 선택하세요");
+            alertDialogBuilder.setTitle("[음악대학] 층을 선택하세요");
             alertDialogBuilder.setCancelable(false);
 
             alertDialogBuilder.setPositiveButton("확인", new DialogInterface.OnClickListener() {
@@ -502,7 +501,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                             Intent intent6 = new Intent(MainActivity.this, Music_7F_Activity.class);
                             startActivity(intent6);
                             break;
-
                     }
                     dialog.dismiss();
                 }
@@ -526,12 +524,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             alertDialog.show();
         }
 
+
         else if (marker.getTitle().equals("미술대학")) {
             final CharSequence[] items = { "1층", "2층", "3층", "4층","5층", "6층", "7층"};
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
 
-
-            alertDialogBuilder.setTitle("층을 선택하세요");
+            alertDialogBuilder.setTitle("[미술대학] 층을 선택하세요");
             alertDialogBuilder.setCancelable(false);
 
             alertDialogBuilder.setPositiveButton("확인", new DialogInterface.OnClickListener() {
@@ -566,7 +564,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                             Intent intent6 = new Intent(MainActivity.this, Art_7F_Activity.class);
                             startActivity(intent6);
                             break;
-
                     }
                     dialog.dismiss();
                 }
@@ -590,13 +587,13 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             alertDialog.show();
         }
 
+
         else if(marker.getTitle().equals("백주년기념관")) {
 
             final CharSequence[] items = {"1층", "2층", "3층", "4층", "5층", "6층", "7층"};
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
 
-
-            alertDialogBuilder.setTitle("층을 선택하세요");
+            alertDialogBuilder.setTitle("[백주년기념관] 층을 선택하세요");
             alertDialogBuilder.setCancelable(false);
 
             alertDialogBuilder.setPositiveButton("확인", new DialogInterface.OnClickListener() {
@@ -659,9 +656,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             final CharSequence[] items = { "1층", "2층", "3층", "4층","5층", "6층"};
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
 
-
-
-            alertDialogBuilder.setTitle("층을 선택하세요");
+            alertDialogBuilder.setTitle("[중앙도서관] 층을 선택하세요");
             alertDialogBuilder.setCancelable(false);
 
             alertDialogBuilder.setPositiveButton("확인", new DialogInterface.OnClickListener() {
@@ -692,8 +687,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                             Intent intent5 = new Intent(MainActivity.this, Library_6F_Activity.class);
                             startActivity(intent5);
                             break;
-
-
                     }
                     dialog.dismiss();
                 }
@@ -717,13 +710,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             alertDialog.show();
         }
 
+
         else if (marker.getTitle().equals("르네상스")) {
-            final CharSequence[] items = { "1층", "2층", "3층", "4층","5층"};
+            final CharSequence[] items = {"B2층", "B1층", "1층", "2층", "3층", "4층", "5층"};
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
 
-
-
-            alertDialogBuilder.setTitle("층을 선택하세요");
+            alertDialogBuilder.setTitle("[르네상스] 층을 선택하세요");
             alertDialogBuilder.setCancelable(false);
 
             alertDialogBuilder.setPositiveButton("확인", new DialogInterface.OnClickListener() {
@@ -731,27 +723,33 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 public void onClick(DialogInterface dialog, int which) {
                     switch (temp1){
                         case 0:
+                            Intent intent5 = new Intent(MainActivity.this, Prime_B2F_Activity.class);
+                            startActivity(intent5);
+                            break;
+                        case 1:
+                            Intent intent6 = new Intent(MainActivity.this, Prime_B1F_Activity.class);
+                            startActivity(intent6);
+                            break;
+                        case 2:
                             Intent intent = new Intent(MainActivity.this, Rena_1F_Activity.class);
                             startActivity(intent);
                             break;
-                        case 1:
+                        case 3:
                             Intent intent1 = new Intent(MainActivity.this, Rena_2F_Activity.class);
                             startActivity(intent1);
                             break;
-                        case 2:
+                        case 4:
                             Intent intent2 = new Intent(MainActivity.this, Rena_3F_Activity.class);
                             startActivity(intent2);
                             break;
-                        case 3:
+                        case 5:
                             Intent intent3 = new Intent(MainActivity.this, Rena_4F_Activity.class);
                             startActivity(intent3);
                             break;
-                        case 4:
+                        case 6:
                             Intent intent4 = new Intent(MainActivity.this, Rena_5F_Activity.class);
                             startActivity(intent4);
                             break;
-
-
                     }
                     dialog.dismiss();
                 }
